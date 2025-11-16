@@ -18,7 +18,7 @@ export default function Hero() {
             Hola, soy <span className="text-orange-600 ">Jesús</span>
           </h2>
           <p className="text-gray-300 mb-8">
-            Hola, mi nombre es Jesús Miguel Arotinco Chumpitaz, estudiante del IV ciclo de la carrera de Ingeniería de Sistemas.
+            estudiante del IV ciclo de la carrera de Ingeniería de Sistemas.
             Actualmente, me interesa mucho el mundo de la programación y la tecnología, pero sobre todo el área de Ciberseguridad, tanto de la información como de las redes.
           </p>
           <div className="flex gap-4 justify-center">
