@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "App a escala para almacenar contactos",
-    img: "https://wwwhatsnew.com/wp-content/uploads/2020/01/Contactos-inteligentes-app.jpg",
+    img: "/Proyecto_React_Vite/contacto.avif",
     desc: "Diseño elegante y moderno, con animaciones suaves.",
   },
 ];

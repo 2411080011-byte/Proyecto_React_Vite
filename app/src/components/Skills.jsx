@@ -5,10 +5,10 @@ const skills = [
   { name: "TailwindCSS", img: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" },
   { name: "Css", img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" },
   { name: "Html", img: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" },
-  { name: "Java Script", img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
-  { name: "Android Studio", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/1200px-Android_Studio_icon_%282023%29.svg.png" },
+  { name: "Java Script", img: "/Proyecto_React_Vite/logo_js.avif" },
+  { name: "Android Studio", img: "/Proyecto_React_Vite/android_estudio.avif" },
   { name: "Git", img: "https://w7.pngwing.com/pngs/171/622/png-transparent-git-thumbnail.png" },
-  { name: "Java", img: "https://tse4.mm.bing.net/th/id/OIP.Z-0qyUe5388oNSEwmjBAUAHaHa?cb=ucfimg2ucfimg=1&w=480&h=480&rs=1&pid=ImgDetMain&o=7&rm=3" },
+  { name: "Java", img: "/Proyecto_React_Vite/logo_java.avif" },
 ];
 
 

@@ -49,7 +49,7 @@ export default function Hero() {
         <div className="relative">
           <div className="absolute inset-0 bg-teal-500/20 blur-2xl rounded-full animate-pulse"></div>
           <img
-            src="https://2411080011-byte.github.io/HTML-CSS-JS/tail/imagenes/img1.jpg"
+            src="/Proyecto_React_Vite/mi_foto.avif"
             alt="Jesús"
             className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-orange-600 shadow-[0_0_35px_rgba(249,115,22,0.4)]
 object-cover relative z-10"
