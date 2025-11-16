@@ -27,6 +27,8 @@ a {
   }
 
   .imagen-derecha{
-    margin-top: -130px;
+    display: block;
   }
+  
 }
+
