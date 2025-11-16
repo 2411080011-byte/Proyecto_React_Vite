@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://2411080011-byte.github.io/Proyecto_React_Vite/app/",
+  "homepage": "https://2411080011-byte.github.io/Proyecto_React_Vite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
