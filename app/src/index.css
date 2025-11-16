@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 720px) {
+  .header{
+    position: relative;
+  }
+  
+  .header .nav-header{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header .nav-header nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+
+  #hero {
+    position: relative;
+  }
+
+  .imagen-derecha{
+    margin-top: -130px;
+  }
+}
