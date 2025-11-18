@@ -7,6 +7,15 @@ a {
   text-decoration: none !important;
 }
 
+.fondo_pagina{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-image: cover;
+  background-position: center;
+  filter: brightness(0.5);
+}
+
 @media (max-width: 720px) {
   .header{
     position: relative;
@@ -27,6 +36,9 @@ a {
 
   #hero {
     position: relative;
+    height: 70vh;
+    padding-top: 25px;
+    padding-bottom: 10px;
   }
 
   #skills {
@@ -35,11 +47,11 @@ a {
 
   #projects{
     padding-top: 0;
+    margin-top: 0;
   }
 
-  .imagen-derecha{
-    display: block;
+  .imagen{
+    margin-top: 0;
   }
-  
 }
 

@@ -13,37 +13,33 @@ export default function Header() {
 
   return (
     <motion.header
-      initial={{ y: -60, opacity: 0 }}
+      initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
-      className="header fixed top-0 left-0 w-full z-30 bg-black/30 backdrop-blur-xl border-b border-gray-800 shadow-[0_0_20px_rgba(0,0,0,0.3)]"
+      transition={{ duration: 0.6 }}
+      className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-lg border-b border-orange-500/20 header"
     >
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-8 nav-header">
-        {/* Logo elegante */}
-        <motion.h1
-          whileHover={{ scale: 1.05 }}
-          className="text-2xl font-bold tracking-wide text-white"
-        > 
-          <span className="text-orange-600 text-3xl">Jesús Miguel </span><span className="text-4xl">Arotinco Chumpitaz</span>
-        </motion.h1>
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-4 px-4 md:px-8 gap-2 md:gap-0">
+        {/* Logo responsivo */}
+        <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-white text-center md:text-left">
+          <span className="text-orange-500">Jesús Miguel</span>{" "}
+          <span className="text-white text-sm sm:text-base md:text-2xl">Arotinco Chumpitaz</span>
+        </h1>
 
-        {/* Navegación con botones */}
-        <nav className="flex gap-4">
+        {/* Navegación responsiva */}
+        <nav className="flex flex-wrap justify-center md:justify-end gap-2 md:gap-4 mt-2 md:mt-0 w-full md:w-auto">
           {links.map(({ href, label }) => (
-            <motion.a
+            <a
               key={href}
               href={href}
               onClick={() => setActive(href.substring(1))}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              className={`px-4 text-white no-underline py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
+              className={`px-3 py-2 rounded-full text-sm sm:text-base md:text-base font-medium transition-colors duration-300 border ${
                 active === href.substring(1)
-                  ? "border-orange-700 bg-orange-700 hover:bg-orange-600 text-white"
-                  : "border-gray-700 text-gray-300"
+                  ? "bg-orange-500 text-white border-orange-500"
+                  : "bg-black/20 text-gray-300 border-orange-400/30 hover:bg-orange-500 hover:text-white"
               }`}
             >
               {label}
-            </motion.a>
+            </a>
           ))}
         </nav>
       </div>
