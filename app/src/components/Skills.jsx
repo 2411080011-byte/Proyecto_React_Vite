@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", img: "https://cdn.worldvectorlogo.com/logos/react-2.svg", level: 90 },
-  { name: "TailwindCSS", img: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", level: 85 },
-  { name: "CSS", img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", level: 95 },
-  { name: "HTML", img: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", level: 95 },
-  { name: "JavaScript", img: "/Proyecto_React_Vite/logo_js.avif", level: 80 },
-  { name: "Android Studio", img: "/Proyecto_React_Vite/android_estudio.avif", level: 70 },
-  { name: "Git", img: "https://w7.pngwing.com/pngs/171/622/png-transparent-git-thumbnail.png", level: 90 },
+  { name: "React", img: "https://cdn.worldvectorlogo.com/logos/react-2.svg", level: 20 },
+  { name: "TailwindCSS", img: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", level: 40 },
+  { name: "CSS", img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", level: 85 },
+  { name: "HTML", img: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", level: 85 },
+  { name: "JavaScript", img: "/Proyecto_React_Vite/logo_js.avif", level: 40 },
+  { name: "Android Studio", img: "/Proyecto_React_Vite/android_estudio.avif", level: 40 },
+  { name: "Git", img: "https://w7.pngwing.com/pngs/171/622/png-transparent-git-thumbnail.png", level: 50 },
   { name: "Java", img: "/Proyecto_React_Vite/logo_java.avif", level: 75 },
 ];
 

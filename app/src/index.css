@@ -7,15 +7,6 @@ a {
   text-decoration: none !important;
 }
 
-.fondo_pagina{
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  background-image: cover;
-  background-position: center;
-  filter: brightness(0.5);
-}
-
 @media (max-width: 720px) {
   .header{
     position: relative;
@@ -55,3 +46,13 @@ a {
   }
 }
 
+/* Forzar altura real móvil — evita el 'salto' de la imagen */
+.fondo_pagina {
+  height: 100vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .fondo_pagina {
+    height: 100dvh !important;
+  }
+}
