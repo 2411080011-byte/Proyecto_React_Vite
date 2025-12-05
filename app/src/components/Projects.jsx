@@ -3,6 +3,16 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "Dashboard",
+    img: "/Proyecto_React_Vite/dashboard.png",
+    desc: "Diseño elegante y moderno para gestionar vendedores y clientes",
+  },
+  {
+    title: "Portafolio 1.0",
+    img: "/Proyecto_React_Vite/porta.png",
+    desc: "Diseño de primer portafolio a base de HTML, CSS y JS",
+  },
+  {
     title: "Juego 'El Ahorcado'",
     img: "https://tse4.mm.bing.net/th/id/OIP.BuK9-m1AxQ9u6eUvBm0_7QHaEK?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
     desc: "Un juego muy divertido para fortalecer las habilidades cognitivas",

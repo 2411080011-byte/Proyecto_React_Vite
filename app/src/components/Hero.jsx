@@ -17,9 +17,14 @@ export default function Hero() {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-white">
             Hola, soy <span className="text-orange-600">Jesús</span>
           </h2>
-          <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-8">
-            Estudiante del IV ciclo de la carrera de Ingeniería de Sistemas. Actualmente, me interesa mucho el mundo de la programación y la tecnología, pero sobre todo el área de Ciberseguridad, tanto de la información como de las redes.
+
+          <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-">
+            Estudiante del IV ciclo de la carrera de Ingeniería de Sistemas.
+            Actualmente, me interesa mucho el mundo de la programación y la
+            tecnología, pero sobre todo el área de Ciberseguridad, tanto de la
+            redes como de la información.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#projects"
@@ -27,6 +32,7 @@ export default function Hero() {
             >
               Ver proyectos
             </a>
+
             <a
               href="#contact"
               className="px-6 py-2 border border-orange-600 hover:bg-orange-600 hover:text-white rounded-lg transition-all duration-300 text-center text-white"
@@ -46,6 +52,7 @@ export default function Hero() {
       >
         <div className="relative">
           <div className="absolute inset-0 bg-teal-500/20 blur-2xl rounded-full animate-pulse"></div>
+
           <img
             src="/Proyecto_React_Vite/mi_foto.avif"
             alt="Jesús"
